@@ -2,7 +2,7 @@
 
 export const topics = [
     {
-        id: "1",
+        id: "Zvuki",
         title: "Звуки речи",
       },
       {

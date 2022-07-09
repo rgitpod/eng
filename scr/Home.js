@@ -7,7 +7,7 @@ export default function Home({ navigation }) {
     <View>
       <Button title="Go to Morf" onPress={() => navigation.navigate("Morphemics")} />
       <Button title="Go to Phon" onPress={() => navigation.navigate("Phonetics")} />
-      <Button title="Go to Phon54" onPress={() => navigation.navigate("Copy")} />
+      <Button title="Go to Phon54" onPress={() => navigation.navigate("Note")} />
     </View>
   );
 } 

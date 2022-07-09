@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function Copy() {
+export default function Note() {
   return (
     <View style={styles.container}>
-      <Text>Morfdf</Text>
+      <Text>What's happening</Text>
     </View>
   );
 }
