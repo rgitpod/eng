@@ -4,7 +4,6 @@ import Phonetics from './scr/contents/Phonetics';
 import Note from './scr/Note';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Copy from './scr/contents/Copy';
 
 const Stack = createNativeStackNavigator();
 

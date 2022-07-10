@@ -8,7 +8,7 @@ export default function Phonetics({ navigation }) {
     <View>
       {
         topics.map((item, i) => (
-          <TouchableOpacity onPress={() => { navigation.navigate(id) }} key={i}>
+          <TouchableOpacity onPress={() => { navigation.navigate("Note", {te: item.text}) }} key={i}>
             <ListItem bottomDivider>
               <ListItem.Content>
                 <ListItem.Title>{item.title}</ListItem.Title>

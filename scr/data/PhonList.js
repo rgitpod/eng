@@ -1,9 +1,9 @@
-
+import { Zvuki } from "./Phonetics/Zvuki"
 
 export const topics = [
     {
-        id: "Zvuki",
         title: "Звуки речи",
+        text: Zvuki
       },
       {
         id: "2",

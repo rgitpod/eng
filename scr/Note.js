@@ -1,18 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function Note() {
+export default function Note({navigation ,route}) {
   return (
-    <View style={styles.container}>
-      <Text>What's happening</Text>
+    <View>
+      <Text>{route.params.te}</Text>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
