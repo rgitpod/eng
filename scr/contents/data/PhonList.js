@@ -1,4 +1,4 @@
-import { Zvuki } from "./Phonetics/Zvuki"
+import { Zvuki } from "./Phonetics/Zvuki";
 
 export const topics = [
     {

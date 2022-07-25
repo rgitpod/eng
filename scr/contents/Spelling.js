@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function Copy() {
+export default function Spelling() {
   return (
     <View style={styles.container}>
-      <Text>Morfdf</Text>
+      <Text>Spelling</Text>
     </View>
   );
 }
